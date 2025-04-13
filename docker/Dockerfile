@@ -11,3 +11,5 @@ RUN git clone https://github.com/leehe228/POS-Data-Analyzer.git
 WORKDIR /opt/POS-Data-Analyzer
 RUN python3 -m venv venv
 
+RUN python3 -m pip install --upgrade pip
+RUN python 3 -m pip install -r requirements.txt
